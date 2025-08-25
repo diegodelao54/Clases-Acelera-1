@@ -9,8 +9,11 @@ import java.util.List;
 public class Main{
 
     public static void main(String[] args) {
+
         System.out.println("===============================================");
         System.out.println("=============    Diego De La O    =============");
+        System.out.println("===============================================");
+
         System.out.println("===============================================");
         System.out.println("=============     Ejercicio 1     =============");
         System.out.println("===============================================");
@@ -32,10 +35,13 @@ public class Main{
         //salida de datos
         myStack.popAll();
 
-        System.out.println("Datos de pila eliminados? " + myStack.isEmpty());
+        System.out.println("Estado de la pila: " + myStack);
         System.out.println(" ------------- Fin del proceso --------------");
 
-// -----------------------------------------  Ejercicio 2  -----------------------------------------
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// -----------------------------------------  Ejercicio 2
 
         System.out.println("===============================================");
         System.out.println("=============     Ejercicio 2     =============");
@@ -52,14 +58,15 @@ public class Main{
 
             //datos nullos
             datosMap.put("1", null);
-            System.out.println("Valor almacenado : " + datosMap.get("1"));
 
         }
         catch (Exception ex){
             System.out.println("Error valor vacio : " + ex.getMessage());
         }
 
-// -----------------------------------------  Ejercicio 3  -----------------------------------------
+
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// -----------------------------------------  Ejercicio 3
 
         System.out.println("===============================================");
         System.out.println("=============     Ejercicio 3     =============");
@@ -76,6 +83,7 @@ public class Main{
         datosGenerales.add("6");
 
         util.addOddElements(datosGenerales);
-        
+
+
     }
 }
